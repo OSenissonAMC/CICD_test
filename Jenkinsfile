@@ -13,7 +13,6 @@ pipeline {
         echo "BRANCH_NAME=${env.BRANCH_NAME}"
         echo "CHANGE_TARGET=${env.CHANGE_TARGET}"
         echo "CHANGE_ID=${env.CHANGE_ID}"
-        sh 'exit 1'
       }
     }
   }
